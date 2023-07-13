@@ -1,3 +1,126 @@
-* {
-    border: 1px solid red;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,300&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+header, footer, .hero {
+    padding: 0 20%;
+    background-color: #1F2937;
+}
+
+header h1 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+header {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul {
+    display: flex;
+    gap: 16px;
+    list-style: none;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    gap: 52px;
+}
+
+.heroleft {
+    display: flex;
+    flex-direction: column;
+}
+
+.maintext {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button.signup {
+    padding: 0 16px;
+    font-weight: bold;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    align-self: start;
+    border: 2px solid #E5E7EB;
+    border-radius: 5px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    margin: 52px 0;
+}
+
+.randominfo h1 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    text-align: center;
+}
+
+.info {
+    max-width: 200px;
+    text-align: center;
+}
+
+.info img {
+    border-radius: 50%;
+    border: 2px solid blue;
+}
+
+.quote {
+    text-align: justify;
+    padding: 50px 25%;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.quoter {
+    text-align: right;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    margin: 52px 28%;
+    color: #F9FAF8;
+    gap: 52px;
+}
+
+.cta p {
+    font-style: italic;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 32px;
+    text-align: center;
+    color: #F9FAF8;
 }
